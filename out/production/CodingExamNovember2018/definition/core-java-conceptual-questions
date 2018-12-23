@@ -5,7 +5,7 @@ A.
 What jdk contains or composed of and define each components?
 A.
 What is IDE?
-A. Integrated Development Environment
+A. IDE stands for Integrated Development Environment
 What are the IDEs available in the market to support java?
 Explain the entire java life cycle.
 what is class?
@@ -46,7 +46,9 @@ What is Serialization and Deserialization?
 when to use transient variable in java?
 Difference between while and do..while loop?
 What is Enum?
+
 What is Iterator?
+Iterator is an interface
 Which one will take more memory, an int or Integer?
 Why is String Immutable in Java?
 What is constructor chaining in Java?

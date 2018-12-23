@@ -46,7 +46,7 @@ What is Serialization and Deserialization?
 when to use transient variable in java?
 Difference between while and do..while loop?
 What is Enum?
-
+Enum is a constant data type keyword used to declare predeclared variables.
 What is Iterator?
 Iterator is an interface
 Which one will take more memory, an int or Integer?
