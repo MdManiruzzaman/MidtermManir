@@ -1,7 +1,10 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. Data structure is a particular way of organizing and storing data in a computer so that it can be accessed
+and modified efficiently. Data structure is a collection of data values, the relationships among them, and the
+functions or operations that can be applied to the data.
+
 What are the various operations that can be performed on different Data Structures?
 List out the areas in which data structures are applied extensively?
 what is an Array?
@@ -10,7 +13,9 @@ what is LinkedList?
 How is an Array different from Linked List?
 what is queue?
 what is stack?
+Stack memory is used for execution of a thread. Stack is a Last-In-First-Out (LIFO) data structure.
 what is FIFO and LIFO?
+FIFO is first in first out used in Queue data structure, and LIFO is last in first out used in Stack data structure.
 what is the order of complexity?
 what is the best case to search an element from an array?
 what is the worst case to search an element from an array?

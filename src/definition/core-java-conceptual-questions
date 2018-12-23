@@ -1,26 +1,45 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. Programming language is a formal language, which comprises a set of instructions used to produce
+various kinds of output. Programming languages are used in computer programming to create programs that
+implement specific algorithms.
 What jdk contains or composed of and define each components?
 A.
 What is IDE?
 A. IDE stands for Integrated Development Environment
 What are the IDEs available in the market to support java?
+Eclipse, IntelliJ, NetBeans, BlueJ and JDeveloper
 Explain the entire java life cycle.
 what is class?
+Class is the blueprint of an object. Class are the templates that are used to create objects.
 What is object?
+Object is an instance of a Class.
 What is the entry point of an application?
+Main method is the entry point of an application.
 Why main is static?
+Not to create object each time you want to enter in an application
 Which class is the superclass of all classes?
+Object class.
 What is difference between path and classpath variables?
 What is the difference between an Interface and Abstract class?
+In interface a method can only be declared but not implemented. On the other hand We can not implement abstract method
+in abstract class but only declare. We can have non abstract method implemented inside abstract class.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+No we can not create it directly but by using keyword implements by another class we can make an object.
 what is Access Specifier?
+Access specifiers are keywords that set the accessibility of classes, methods, and variables.
 What is OOP ? Define each feature of java OOP.
+OOP stands for Object Oriented Programming. Abstraction, Inheritance, Encapsulation and Polymorphism are the features of java OOP.
 What is Java Package and which package is imported by default?
+A Package is a collection of related classes. It helps organize your classes into a folder structure and make it easy to locate
+and use them.  java.lang package is imported by default.
 What is API? Name list of API that you have used so far.
+API stands for Application Programming Interface. An API is a software intermediary that allows two applications to talk
+to each other. In other words, an API is the messenger that delivers your request to the provider that you're requesting
+it from and then delivers the response back to you.
 Does java support multiple inheritance, explain why or why not?
+No.
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
