@@ -39,6 +39,8 @@ What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
 What is compile time and run time?
 What is heap?
+HEAP is a space in RAM
+I will answer later
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
