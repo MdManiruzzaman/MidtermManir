@@ -42,4 +42,5 @@ public class Trainee implements Comparable<Trainee> {
         return trainee.getNumberOfExercisesSolved() - this.getNumberOfExercisesSolved();
     }
 
+
 }

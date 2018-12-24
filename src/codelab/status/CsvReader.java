@@ -20,6 +20,7 @@ public class CsvReader {
         BufferedReader br = null;
         List<Trainee> roster = new ArrayList<Trainee>();
 
+
         try {
             br = new BufferedReader(new FileReader(csvFilePath));
             int lineNumber = 0;
@@ -61,6 +62,7 @@ public class CsvReader {
                 System.out.print("Shame on You !--> ");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
             }
+
         }
 
     }
