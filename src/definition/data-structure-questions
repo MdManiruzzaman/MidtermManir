@@ -10,10 +10,20 @@ Insertion and Deletion,
 List out the areas in which data structures are applied extensively?
 what is an Array?
 what is the difference between the Array and ArrayList?
+Array cannot grow dynamically but ArrayList can. Array is a fixed length data structure but ArrayList is a variable
+length collection class.In Array you have to declare the size but in ArrayList you don't. ArrayList can not store
+primitives in, it can only contain Objects. Array is faster and arrayList is slower.
 what is LinkedList?
+A linked list is a linear data structure, consists of nodes where each node contains a data field and a reference
+to the next node in the list.
 How is an Array different from Linked List?
+Array is an index based data structure, every element is associated with an index whereas the linked list is a data
+structure that uses references, each node is referred to another node. In array, size is fixed whereas in linked list
+size is not fixed.
 what is queue?
+Queue is a Fast-In-First-Out (FIFO) data structure.
 what is stack?
+Stack is a Last-In-First-Out (LIFO) data structure.
 Stack memory is used for execution of a thread. Stack is a Last-In-First-Out (LIFO) data structure.
 what is FIFO and LIFO?
 FIFO is first in first out used in Queue data structure, and LIFO is last in first out used in Stack data structure.
