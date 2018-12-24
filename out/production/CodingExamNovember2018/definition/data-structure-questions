@@ -9,11 +9,22 @@ What are the various operations that can be performed on different Data Structur
 Insertion and Deletion,
 List out the areas in which data structures are applied extensively?
 what is an Array?
+Array is a container. Instead of declaring indivual variable number of times, we can declare multiple variables using array.
 what is the difference between the Array and ArrayList?
+Array cannot grow dynamically but ArrayList can. Array is a fixed length data structure but ArrayList is a variable
+length collection class.In Array you have to declare the size but in ArrayList you don't. ArrayList can not store
+primitives in, it can only contain Objects. Array is faster and arrayList is slower.
 what is LinkedList?
+A linked list is a linear data structure, consists of nodes where each node contains a data field and a reference
+to the next node in the list.
 How is an Array different from Linked List?
+Array is an index based data structure, every element is associated with an index whereas the linked list is a data
+structure that uses references, each node is referred to another node. In array, size is fixed whereas in linked list
+size is not fixed.
 what is queue?
+Queue is a Fast-In-First-Out (FIFO) data structure.
 what is stack?
+Stack is a Last-In-First-Out (LIFO) data structure.
 Stack memory is used for execution of a thread. Stack is a Last-In-First-Out (LIFO) data structure.
 what is FIFO and LIFO?
 FIFO is first in first out used in Queue data structure, and LIFO is last in first out used in Stack data structure.
@@ -23,9 +34,16 @@ what is the worst case to search an element from an array?
 what is tree in data structure?
 what is graph in data structure?
 what is the difference between the HashTable and HashMap?
+1. HashMap is non synchronized. It can’t be shared between many threads without proper synchronization code whereas
+Hashtable is synchronized. It can be shared with many threads.
+2. HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value.
+3. HashMap is generally preferred over HashTable if thread synchronization is not needed
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
+HashMap works on principle of Hashing.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access array element with an illegal index.
+This exception is thrown when the index is either negative or greater than or equal to the size of the array.
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
 What is DFS and BFS?

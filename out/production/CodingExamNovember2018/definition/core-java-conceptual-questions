@@ -5,12 +5,21 @@ A. Programming language is a formal language, which comprises a set of instructi
 various kinds of output. Programming languages are used in computer programming to create programs that
 implement specific algorithms.
 What jdk contains or composed of and define each components?
-A.
+A. The Runtime Interpreter
+   The Compiler
+   The Applet Viewer
+   The Debugger
+   The Class File Disassembler
+   The Header and Stub File Generator
+   The Documentation Generator
+   Applet Demos
+   API Source Code
 What is IDE?
 A. IDE stands for Integrated Development Environment
 What are the IDEs available in the market to support java?
 Eclipse, IntelliJ, NetBeans, BlueJ and JDeveloper
 Explain the entire java life cycle.
+Editor -> Source Code -> Java Compiler(JAVAC) -> ByteCodes-> JVM -> Operating System
 what is class?
 Class is the blueprint of an object. Class are the templates that are used to create objects.
 What is object?
@@ -18,10 +27,13 @@ Object is an instance of a Class.
 What is the entry point of an application?
 Main method is the entry point of an application.
 Why main is static?
-Not to create object each time you want to enter in an application
+Main method is always static for not to create object each time you want to enter in an application
 Which class is the superclass of all classes?
 Object class.
 What is difference between path and classpath variables?
+Classpath is the path for Java application where the classes you compiled will be available. On the other hand Path is an
+environment variable which is used to locate JDK binaries like "java" or "javac" command used to run java program and
+compile java source file.
 What is the difference between an Interface and Abstract class?
 In interface a method can only be declared but not implemented. On the other hand We can not implement abstract method
 in abstract class but only declare. We can have non abstract method implemented inside abstract class.
@@ -39,18 +51,27 @@ API stands for Application Programming Interface. An API is a software intermedi
 to each other. In other words, an API is the messenger that delivers your request to the provider that you're requesting
 it from and then delivers the response back to you.
 Does java support multiple inheritance, explain why or why not?
-No.
+No java doesn't support multiple inheritance directly because it leads to overriding of methods when both extended class
+have a same method name. To avoid ambiguity error java does not support multiple inheritance.
 What is method overloading and when it happens?
+Method overloading is a concept used to avoid redundant code where the same method name is used multiple times but
+with a different signature or different set of parameters.
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
+A constructor is special type of method that is called when an object is instantiated. Constructor in Java initializes
+instances or objects.
 Can we have multiple constructors in a class?
+Yes, a class can have multiple constructors, as long as their signature or the parameters they take are not the same.
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
+"this" is a keyword in Java used inside the Method or constructor of a Class. It is used to refer to any
+member of the current object from within an instance Method or a constructor.
 What is "super" keyword in java? How many possible way can you use?
 What is JVM stand for ?
+JVM stands for Java Virtual Machine.
 Is JVM platform independent?
 What version of java are you using?
 What is JAR stand for ?
@@ -62,7 +83,6 @@ JVM stands for Java Virtual Machine and JRE is an acronym for Java Runtime Envir
 What is compile time and run time?
 What is heap?
 HEAP is a space in RAM from which memory for all class instances and arrays is allocated.
-I will answer later
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
@@ -85,6 +105,8 @@ What is reflection in java and why is it useful?
 what is multithreading in java?
 What is the use of synchronization in Java?
 What is Framework?
+Frameworks are large bodies (usually many classes) of prewritten code to which you add your own code
+to solve a problem in a specific domain
 What are the testing Framework available in java?
 Difference between jUnit and testNG?
 What are the dependencies for this project?
