@@ -54,11 +54,14 @@ What is JVM stand for ?
 Is JVM platform independent?
 What version of java are you using?
 What is JAR stand for ?
+JAR stands for Java Archive.
 What is the difference between JDK and JVM?
+JDK stands for Java Development Kit and JVM stands for Java Virtual Machine.
 What is the difference between JVM and JRE?
+JVM stands for Java Virtual Machine and JRE is an acronym for Java Runtime Environment
 What is compile time and run time?
 What is heap?
-HEAP is a space in RAM
+HEAP is a space in RAM from which memory for all class instances and arrays is allocated.
 I will answer later
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
@@ -67,7 +70,7 @@ What is Serialization and Deserialization?
 when to use transient variable in java?
 Difference between while and do..while loop?
 What is Enum?
-Enum is a constant data type keyword used to declare predeclared variables.
+Enum is a constant data type keyword used to declare predefined variables.
 What is Iterator?
 Iterator is an interface
 Which one will take more memory, an int or Integer?
