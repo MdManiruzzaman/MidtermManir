@@ -12,6 +12,17 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		for (int i = 1; i <= 100; i++) {
+			for (int k = 2; k <= i; k++) {
+				if (k == i) {
+					System.out.println(i);
+				}
+				if (i % k == 0) {
+					break;
+				}
+			}
+
+		}
 
 	}
 
