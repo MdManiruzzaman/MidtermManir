@@ -1,10 +1,5 @@
 package math.problems;
 
-import databases.ConnectToSqlDB;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class LowestNumber {
 
 	public static void main(String[] args) {
@@ -16,7 +11,17 @@ public class LowestNumber {
 
 		//find lowest number from the array
 
-		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
+		int TheLowestNumber;
+		TheLowestNumber = array[0];
+
+		for (int Number : array) {
+			if (Number < TheLowestNumber) {
+				TheLowestNumber = Number;
+			}
+		}
+		System.out.println("The Lowest Number in the array is : " + TheLowestNumber);
+
+		/*ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 		List<String> lowestValue = new ArrayList<String>();
 		try {
 			connectToSqlDB.insertDataFromArrayToSqlTable(array, "tbl_lowestNumber", "column_lowestNumber");
@@ -28,7 +33,7 @@ public class LowestNumber {
 		System.out.println("Data is reading from the Table (tbl_primenumber) and displaying to the console");
 		for(String st:lowestValue){
 			System.out.println(st);
-		}
+		}*/
 	}
 
 }
