@@ -18,8 +18,8 @@ public class Factorial {
        for (int i = 1; i <= 5; i++) {
             result = result * i;
         }
-        System.out.println("The Factorial of 5 is : " + result);
-        System.out.println("The Factorial of 5 is : " + factorial(5));
+        System.out.println("The Factorial of 5 using Iterator is : " + result);
+        System.out.println("The Factorial of 5 using recursion is : " + factorial(5));
     }
 
     // Using Recursion finding out Factorial of 5
@@ -29,5 +29,7 @@ public class Factorial {
         } else {
             return n * factorial(n - 1);
        }
+
    }
+
 }
