@@ -9,18 +9,25 @@ public interface Employee {
 	//and then implement these in a concrete class.
 	
 	//employeeId() will return employee id.
-	public int employeeId();
+	public int empID();
 	
 	//employeeName() will return employee name
-	public String employeeName();
+	public String empName();
 	
 	//assignDepartment() will assign employee to departments
-    public void assignDepartment();
+    public void assignDepartmentName();
 	
 	//calculate employee salary
-	public int calculateSalary();
+	public int calculateYearlySalary();
 	
 	//employee benefit
 	public void benefitLayout();
 
+	public default void startUpBonus(){
+		System.out.println("Start up Bonus amount is $5000. Default method from Employee Interface");
+	}
+
+	public static void housing(){
+		System.out.println("\nFree Housing for all Employee. Static void method from Employee Interface\n");
+	}
 }
