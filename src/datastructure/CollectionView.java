@@ -20,7 +20,5 @@ public static void main(String[] args) {
         for (Map.Entry<Integer, String> USA : map.entrySet()) {
                 System.out.println("Collection View of USA is " + USA.getKey() + ": " + USA.getValue());
         }
-
     }
-
 }

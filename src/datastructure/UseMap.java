@@ -16,11 +16,12 @@ public class UseMap {
 		Australia.add("Sydney");
 		Australia.add("Melbourne");
 		Australia.add("Perth");
+		Australia.add("Adelade");
 
 		List<String>USA=new ArrayList<String>();
-		USA.add("NYC");
-		USA.add("NJ");
-		USA.add("FL");
+		USA.add("New York City");
+		USA.add("Jercy City");
+		USA.add("Long Island City");
 
 		List<String>Canada=new ArrayList<String>();
 		Canada.add("Toronto");
@@ -42,5 +43,4 @@ public class UseMap {
 			System.out.println("\n"+cityInfo.getKey()+" "+cityInfo.getValue());
 		}
 	}
-
 }
