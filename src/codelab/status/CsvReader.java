@@ -13,7 +13,6 @@ public class CsvReader {
          Based on number of solution you solved, message is generated for you.
          You need to find the average score of the class.
          */
-
         String csvFilePath = System.getProperty("user.dir") + "/src/codelab/status/roster-file-12-23-2018.csv";
         String line = "";
         String cvsSplitBy = ",";
@@ -62,9 +61,12 @@ public class CsvReader {
                 System.out.print("Shame on You !--> ");
                 System.out.println(student.getFirstName() + " " + student.getLastName() + " " + student.getNumberOfExercisesSolved());
             }
-
         }
-
+       int numOfTrainee = roster.size();
+        int totalSolved = 0;
+        for (Trainee tr: roster) {
+            totalSolved+=tr.getNumberOfExercisesSolved();
+        }
+        System.out.println("\nAverage Number of Codelab exercise solved of the class : "+totalSolved/numOfTrainee);
     }
-
 }
