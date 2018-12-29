@@ -5,6 +5,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import javax.json.Json;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -54,12 +55,12 @@ public class JsonReaderUtil {
             try {
                 JsonObject jsonobject = jsonArray.get(i).getAsJsonObject();
                 //you code start here
-
-
-
-
-
-
+                String empEmail=jsonobject.get("empEmail").toString();
+                String empName =jsonobject.get("empName").toString();
+                String salary=jsonobject.get("salary").toString();
+                String department=jsonobject.get("department").toString();
+                emp=new Employee(empEmail, empName, salary, department);
+                empList.add(emp);
 
             }catch(Exception ex){
 
